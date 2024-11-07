@@ -31,6 +31,7 @@ def main():
     administrativo.set_cargo("Secretario")
 
     empresa = EmpleadoLimpieza()
+    empresa.set_turno("matutino")
     empresa.set_nombre("Pedro")
     empresa.set_apellido("Martínez")
     empresa.set_edad(45)
