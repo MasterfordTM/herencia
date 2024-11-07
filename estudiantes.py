@@ -29,4 +29,4 @@ class Estudiantes(Persona):
 
     def mostrar_informacion(self):
         base_info = super().mostrar_informacion()
-        return f"{base_info}, Matrícula: {self._matricula}"
+        return f"{base_info}, Matrícula: {self._matricula},semestre {self._semestre}, carrrera {self.get_carrrera()}"

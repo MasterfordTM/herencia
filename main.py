@@ -7,14 +7,18 @@ from empleado_limpieza import EmpleadoLimpieza
 def main():
     # Crear objetos
     estudiante = Estudiantes()
-    estudiante.set_nombre("lol")
+    estudiante.set_nombre("al")
     print(estudiante.get_nombre())
+    estudiante.set_carrera("sistemas")
+    estudiante.set_semestre("2")
     estudiante.set_apellido("Pérez")
     estudiante.set_edad(20)
     estudiante.set_matricula("123456")
 
     profesor = Profesores()
     profesor.set_nombre("María")
+    profesor.set_max("ing")
+    profesor.set_categoria("nose que poner")
     profesor.set_apellido("López")
     profesor.set_edad(40)
     profesor.set_departamento("Matemáticas")
