@@ -24,6 +24,7 @@ def main():
     profesor.set_departamento("Matemáticas")
 
     administrativo = Administrativos()
+    administrativo.set_area("humanidades")
     administrativo.set_nombre("Carlos")
     administrativo.set_apellido("González")
     administrativo.set_edad(35)
